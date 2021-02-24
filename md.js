@@ -1,3 +1,2 @@
-"use strict"
-let x=5;
-console.log(x);
+let prompt=require('prompt-sync')();
+let number=prompt()
