@@ -1,0 +1,6 @@
+What are alternatives to default parameters?
+The alternative to default parameters is to give meaningful name and 
+ provided in a function declaration that is automatically assigned by the compiler 
+ if the caller of the function doesn’t provide a value for the argument with a default value.
+2. What are things you should consider while naming a function?
+The function as possible as meaningful to the output or what is doing that helps with anyone can read easily.
