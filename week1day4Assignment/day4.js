@@ -85,7 +85,7 @@
 // count++;
 // }
 // console.log(`The result will be :${result}`);
-// /*5 .. Write a JavaScript program to compute sum of all the digits in a given integer number.
+/*5 .. Write a JavaScript program to compute sum of all the digits in a given integer number.
 // */
 
 // let value=prompt("Enter a digit here")
@@ -95,23 +95,23 @@
 // }
 // console.log("The output is :"+ sum)
 
-// /*6.A..... */
+/*6.A..... */
 // for(let i=1;i<=5;i++){
 //     let row=""
-//     for(let j=1;j<=5;j++){
-// if(i>=j){
-//     row=row+i
-// }
+//     for(let j=1;j<=i;j++){
+//         row+=i;
+
 //     }console.log(row)
 // }
- //B
+//  //B
 
 // for(let i=1;i<=5;i++){
 //  let result="";
 //  for(let j=1;j<=i;j++){
-//  result+=j;
-//  }
-//  console.log(result);
+//  result+=j; 
+ 
+//  }console.log(result);
+
 // }
 // console.log("c")
 
@@ -147,8 +147,22 @@
 // }​​​​​​​
 // }​​​​​​​
 // }​​​​​​​
+//0,0
+function checkSta(num){ 
+let sum=0;
+for(let i=0;i<num;i++){
+    sum+=i;
+    if(sum<num){
+        continue;
+    }
+    if(sum==num){
+        return true
+    }
 
-
+}
+return false;
+}
+console.log(checkSta(10))
 
 
 
